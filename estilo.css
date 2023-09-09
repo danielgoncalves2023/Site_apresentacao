@@ -1,0 +1,233 @@
+/* VARIÁVEIS DE CORES */
+:root {
+    --background: #183D3D;
+    --color-background-navy: #040D12;
+    --color-background-divs: #9da1a0;
+    --color_font1: #DBE2EF;
+    --color_font2: #F9F7F7;
+    --color_text1: #93B1A6;
+    --color_titulo_div1: black;
+    --color_titulo_div2: white;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: var(--color_text1);
+}
+
+body {
+    background: var(--background);
+}
+
+/* CONTAINER DO CONTEÚDO DA PÁGINA */
+/* Aqui altera cor maior parte dos fundos containers */
+#content {
+    background: var(--background);
+    box-sizing: border-box;
+}
+
+html.hydrated {
+    background: var(--background);
+}
+
+/* CABEÇALHO */
+#nome_navbar {
+    color: white;
+    font-size: 1.45rem;
+}
+
+header {
+    background-color: var(--color-background-navy);
+    padding: 30px;
+}
+
+/* TÍTULO CABEÇALHO */
+#welcome {
+    color: var(--color_font2);
+    font-size: 3rem;
+    padding: 0.5rem;
+}
+
+#navegacao {
+    justify-content: space-around;
+}
+
+/* LISTA MENU NAVEGAÇÃO */
+#navegacao ul {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+/* LINK MENU NAVEGAÇÃO */
+.navy-link {
+    display: flex;
+    padding: 10px 40px 10px 40px;
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--color_font1);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--color_font2);
+    transform: scale(1.01);
+}
+
+/* ESTILO CONTAINER DAS DIVS DE CONTEÚDOS */
+.divs-content {
+    background: var(--color-background-divs);
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 0rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    box-shadow: 10px 15px rgba(0,0,0,0.4);
+}
+
+/* TITULO DAS DIVS */
+.titulo-divs {
+    text-align: center;
+    padding: 30px;
+    color: var(--color_titulo_div1);
+}
+
+/* DIV APRESENTAÇÃO */
+#imagem_apresentacao {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#container_quem_sou_eu {
+    text-align: center;
+}
+
+#img_quem_sou_eu {
+    height: 90%;
+    padding: 0;
+}
+
+#container_img_apresentacao {
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+}
+
+#titulo-apresentacao {
+    color: var(--color_titulo_div2);
+    text-align: center;
+    padding-top: 20px;
+}
+
+#texto_apresentacao {
+    padding: 0px 2rem 2rem 2rem;
+}
+
+/* DIV FORMAÇÃO */
+#formacao {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+#formacao p, #formacao h3 {
+    color: var(--color_titulo_div1);
+}
+
+.logo-faculdade {
+    width: 18rem;
+    padding: 2rem;
+}
+
+.faculdade {
+    border: white;
+    border-radius: 10px;
+    border-style: solid
+}
+
+#formacao hr {
+    border-color: white;
+    border-width: 3px;
+}
+
+/* DIV HABILIDADES */
+.icones-tecnologia {
+    height: 50px;
+    padding: 10px;
+}
+
+.icones-tecnologia h2 {
+    color: white;
+}
+
+h2.linguagens_e_ferramentas {
+    color: white;
+}
+
+.tecnologias {
+    color: white;
+}
+
+#div-habilidades h2 {
+    text-align: left;
+}
+
+#div-habilidades p {
+    font-size: 16px;
+}
+
+table th {
+    text-align: center;
+}
+
+/* PROJETOS */
+.card {
+    box-shadow: 6px 10px rgba(0,0,0,0.4);
+}
+
+p.card-text {
+    color: black;
+    padding: 20px;
+}
+
+h5.card-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* DIV ONDE ME ENCONTRAR*/
+#onde_me_encontrar div h1 {
+    color: var(--color_titulo_div2);
+    text-align: center;
+    padding-top: 50px;
+}
+
+#onde_me_encontrar div p {
+    color: var(--color_text1);
+}
+
+#texto_onde_me_encontrar {
+    padding: 2rem;
+}
+
+#ancoras {
+    text-align: center;
+    padding: 2rem;
+}
+
+#ancoras a {
+    padding: 10px;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    color: white;
+    font-size: 20px;
+}
